@@ -1,0 +1,43 @@
+# FactionRPG Quests File
+# MADE BY: LORD MINATO
+
+quests:
+  zombie_hunter:
+    display-name: "&aZombie Hunter"
+    type: KILL_MOB
+    target: ZOMBIE
+    amount: 10
+    rewards:
+      xp: 150
+      faction-xp: 50
+      money: 50
+
+  iron_miner:
+    display-name: "&aIron Miner"
+    type: BREAK_BLOCK
+    target: IRON_ORE
+    amount: 20
+    rewards:
+      xp: 200
+      faction-xp: 75
+      money: 75
+
+  spider_slayer:
+    display-name: "&aSpider Slayer"
+    type: KILL_MOB
+    target: SPIDER
+    amount: 15
+    rewards:
+      xp: 180
+      faction-xp: 60
+      money: 60
+
+  creeper_hunter:
+    display-name: "&aCreeper Hunter"
+    type: KILL_MOB
+    target: CREEPER
+    amount: 8
+    rewards:
+      xp: 250
+      faction-xp: 100
+      money: 100
