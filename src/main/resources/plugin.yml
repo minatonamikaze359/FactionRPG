@@ -1,0 +1,24 @@
+name: FactionRPG
+version: 1.0.0
+main: com.lordminato.factionrpg.FactionRPG
+api-version: 1.21
+authors: [LORD MINATO]
+description: A complete RPG progression plugin with faction systems
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+commands:
+  rpg:
+    description: View your RPG profile
+    aliases: [character, stats]
+  faction:
+    description: View faction information
+  quests:
+    description: Open daily quests
+    aliases: [quest]
+  factionrpg:
+    description: Admin commands
+    aliases: [frpg]
+permissions:
+  factionrpg.admin:
+    description: Access all admin commands
+    default: op
