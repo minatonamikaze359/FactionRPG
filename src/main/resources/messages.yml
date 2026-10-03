@@ -1,0 +1,43 @@
+# FactionRPG Messages File
+# MADE BY: LORD MINATO
+
+# General messages
+prefix: "&7[&6FactionRPG&7]"
+only-players: "%prefix% &cThis command can only be used by players."
+no-permission: "%prefix% &cYou don't have permission to do that."
+no-profile: "%prefix% &cYour RPG profile couldn't be loaded."
+invalid-command: "%prefix% &cInvalid command. Use /help for more info."
+
+# Faction messages
+faction-selected: "%prefix% &aYou have joined the %faction%&a!"
+friendly-fire-disabled: "%prefix% &cYou cannot damage members of your own faction."
+
+# RPG messages
+rpg-profile: |
+  %prefix% &6Your RPG Profile:
+  &eFaction: %faction%
+  &eLevel: %level%
+  &eXP: %xp%/%required_xp%
+  &eFaction XP: %faction_xp%
+  &eAbility: %ability%
+
+level-up: "%prefix% &6✦ LEVEL UP! &eYou reached Level %level%!"
+
+# Ability messages
+ability-on-cooldown: "%prefix% &c%ability% is on cooldown: %time%s"
+
+# Quest messages
+quest-complete: "%prefix% &aQUEST COMPLETE!"
+
+# Admin messages
+config-reloaded: "%prefix% &aConfigurations reloaded successfully."
+player-not-found: "%prefix% &cPlayer not found."
+item-not-found: "%prefix% &cItem not found."
+item-given: "%prefix% &aGave %item% &ato %player%."
+level-set: "%prefix% &aSet %player%'s level to %level%."
+xp-added: "%prefix% &aAdded %amount% XP to %player%."
+faction-set: "%prefix% &aSet %player%'s faction to %faction%."
+quest-reset: "%prefix% &aReset %player%'s daily quest."
+
+# Item messages
+wrong-faction-weapon: "%prefix% &cThis weapon belongs to the %faction%."
