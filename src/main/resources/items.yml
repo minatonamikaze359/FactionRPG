@@ -1,0 +1,38 @@
+# FactionRPG Items File
+# MADE BY: LORD MINATO
+
+items:
+  factionrpg_vanguard_blade:
+    display-name: "✨ Vanguard Blade"
+    lore:
+      - "&7A weapon forged for the"
+      - "&7Light Vanguard."
+      - ""
+      - "&c⚔ Damage: 22"
+      - "&e✦ Scales with RPG Level"
+      - "&6☀ Faction: Light Vanguard"
+    material: GOLDEN_SWORD
+    enchantments:
+      DAMAGE_ALL: 5
+      DURABILITY: 3
+    required-faction: LIGHT_VANGUARD
+    base-damage: 7.0
+    damage-per-level: 0.5
+    custom-model-data: 0
+
+  factionrpg_shadow_blade:
+    display-name: "☾ Shadow Blade"
+    lore:
+      - "&7A weapon born from darkness."
+      - ""
+      - "&c⚔ Damage: 22"
+      - "&e✦ Scales with RPG Level"
+      - "&5☾ Faction: Shadow Syndicate"
+    material: IRON_SWORD
+    enchantments:
+      DAMAGE_ALL: 5
+      DURABILITY: 3
+    required-faction: SHADOW_SYNDICATE
+    base-damage: 7.0
+    damage-per-level: 0.5
+    custom-model-data: 0
