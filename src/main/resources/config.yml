@@ -1,0 +1,64 @@
+# FactionRPG Configuration File
+# MADE BY: LORD MINATO
+
+# General settings
+general:
+  prefix: "&7[&6FactionRPG&7]"
+
+# RPG settings
+rpg:
+  max-level: 50
+  xp-formula: "100 + ((level - 1) * 50)"
+
+# XP settings
+xp:
+  enabled: true
+  multiplier: 1.0
+  player-kill: 50
+  mobs:
+    ZOMBIE: 10
+    SKELETON: 12
+    SPIDER: 10
+    CREEPER: 15
+    ENDERMAN: 25
+    BLAZE: 30
+    WITHER_SKELETON: 35
+    WARDEN: 500
+
+# Faction settings
+factions:
+  friendly-fire: false
+  give-starter-item: true
+
+# Ability settings
+abilities:
+  holy-shield:
+    enabled: true
+    cooldown: 45
+    duration: 5
+    resistance-amplifier: 1
+    regeneration-amplifier: 1
+  shadow-dash:
+    enabled: true
+    cooldown: 30
+    distance: 3.0
+    speed-duration: 3
+    speed-amplifier: 2
+
+# Item settings
+items:
+  vanguard-blade:
+    base-damage: 7.0
+    damage-per-level: 0.5
+  shadow-blade:
+    base-damage: 7.0
+    damage-per-level: 0.5
+
+# Quest settings
+quests:
+  reset-interval: 86400 # 24 hours in seconds
+
+# Scoreboard settings
+scoreboard:
+  enabled: false
+  update-interval: 20 # ticks
